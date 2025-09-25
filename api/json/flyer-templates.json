@@ -1,0 +1,45 @@
+[
+  {
+    "id": "flyer-1",
+    "name": "Simple Real Estate Flyer",
+    "description": "A flyer template for property listings with 2 images and customizable text fields.",
+    "preview": "/flyer-1-preview.png",
+    "placeholders": [
+      "Property_Description",
+      "Property_Highlights_line-1",
+      "Property_Highlights_line-2",
+      "Property_Highlights_line-3",
+      "Property_Highlights_line-4",
+      "Property_Highlights_line-5",
+      "Property_Highlights_line-6",
+      "Property_Location",
+      "Take_away_Text",
+      "CTA",
+      "Image_1",
+      "Image_2"
+    ],
+    "layout": "flyer-1.html"
+  },
+  {
+    "id": "flyer-2",
+    "name": "Modern Flyer",
+    "description": "A modern flyer template with 3 images and all flyer text fields.",
+    "preview": "/flyer-2-preview.png",
+    "placeholders": [
+      "Property_Description",
+      "Property_Highlights_line-1",
+      "Property_Highlights_line-2",
+      "Property_Highlights_line-3",
+      "Property_Highlights_line-4",
+      "Property_Highlights_line-5",
+      "Property_Highlights_line-6",
+      "Property_Location",
+      "Take_away_Text",
+      "CTA",
+      "Image_1",
+      "Image_2",
+      "Image_3"
+    ],
+    "layout": "flyer-2.html"
+  }
+]

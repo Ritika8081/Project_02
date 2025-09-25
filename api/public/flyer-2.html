@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Flyer</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; margin: 0; padding: 0; }
+    .flyer { width: 900px; margin: 40px auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 12px #bbb; padding: 36px; }
+    .images { display: flex; gap: 12px; margin-bottom: 24px; }
+    .images img { width: 32%; height: 180px; object-fit: cover; border-radius: 8px; }
+    .desc { font-size: 1.4em; font-weight: bold; margin-bottom: 14px; color: #222; }
+    .highlights { margin-bottom: 14px; }
+    .highlights li { margin-bottom: 4px; }
+    .location { font-size: 1.1em; color: #555; margin-bottom: 14px; }
+    .takeaway { font-size: 1.2em; color: #388e3c; margin-bottom: 14px; }
+    .cta { font-size: 1.2em; color: #1976d2; font-weight: bold; }
+  </style>
+  <script type="module" src="/src/main.jsx"></script>
+</head>
+<body>
+  <div class="flyer">
+    <div class="images">
+      <img src="{{Image_1}}" alt="Property Image 1">
+      <img src="{{Image_2}}" alt="Property Image 2">
+      <img src="{{Image_3}}" alt="Property Image 3">
+    </div>
+    <div class="desc">{{Property_Description}}</div>
+    <ul class="highlights">
+      <li>{{Property_Highlights_line-1}}</li>
+      <li>{{Property_Highlights_line-2}}</li>
+      <li>{{Property_Highlights_line-3}}</li>
+      <li>{{Property_Highlights_line-4}}</li>
+      <li>{{Property_Highlights_line-5}}</li>
+      <li>{{Property_Highlights_line-6}}</li>
+    </ul>
+    <div class="location">{{Property_Location}}</div>
+    <div class="takeaway">{{Take_away_Text}}</div>
+    <div class="cta">{{CTA}}</div>
+  </div>
+</body>
+</html>
